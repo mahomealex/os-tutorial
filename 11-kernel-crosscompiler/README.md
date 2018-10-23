@@ -15,10 +15,11 @@ Required packages
 First, install the required packages. On linux, use your package distribution. On a Mac, [install brew](http://brew.sh/) if
 you didn't do it on lesson 00, and get those packages with `brew install`
 
+//gcc依赖的几个精度库
 - gmp
 - mpfr
 - libmpc
-- gcc
+- gcc //（GNU Compiler Collection，GNU编译器套装），是一套由 GNU 开发的编程语言编译器
 
 Yes, we will need `gcc` to build our cross-compiled `gcc`, especially on a Mac where gcc has been deprecated for `clang`
 
